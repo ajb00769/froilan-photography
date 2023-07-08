@@ -1,0 +1,29 @@
+.logo {
+    border-radius: 50%;
+    object-fit: contain;
+    width: 100px;
+}
+
+.navbar {
+    position: relative;
+    background-color: #f0f0ed;
+    height: 64px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-brand {
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    margin-left: -50px !important;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+      position: absolute;
+      left: 50%;
+      margin-left: -50px !important;
+      display: block;
+    }
+}
