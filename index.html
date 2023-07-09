@@ -24,20 +24,44 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand">
+      <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
-          <div class="navbar-nav mb-lg-0 text-center" id="navitems">
-            <a class="nav-link" href="about.html">About</a>
-            <a class="nav-link" href="blog.html">Services</a>
-          </div>
-          <h1>
-            <a class="navbar-brand" href="#">
-              <img class="logo" src="static/img/froilan-logo-enhanced.jpg" />
-            </a>
-          </h1>
-          <div class="navbar-nav mb-lg-0 text-center" id="navitems">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-link" href="contact.html">Contact</a>
+          <a class="navbar-brand" href="/">
+            <img
+              class="logo d-md-none"
+              src="static/img/froilan-logo-enhanced.jpg"
+            />
+          </a>
+          <button
+            class="navbar-toggler custom-toggler"
+            type="button"
+            id="nav-menu-button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto" id="navitems">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <a class="navbar-brand d-none d-md-block" href="/">
+                <img src="static/img/froilan-logo-enhanced.jpg" />
+              </a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>

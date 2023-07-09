@@ -1,29 +1,54 @@
-.logo {
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Handlee&family=Neucha&family=Style+Script&display=swap');
+
+.navbar-brand img {
     border-radius: 50%;
-    object-fit: contain;
-    width: 100px;
+    width: 50px;
+}
+
+.nav {
+    z-index: 9999;
 }
 
 .navbar {
-    position: relative;
     background-color: #f0f0ed;
-    height: 64px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .navbar-brand {
-    position: absolute;
-    top: -20%;
-    left: 50%;
-    margin-left: -50px !important;
-    display: block;
+    margin-right: 0;
+    padding: 0 1em;
+}
+
+.navbar-nav {
+    align-items: center;
+    font-family: 'Handlee', sans-serif;
+}
+
+.navbar .navbar-nav .navlink {
+    color: white;
+    font-size: 1.1em;
+    padding: 0.5 1em;
+}
+
+.navbar-toggler-icon {
+    border: transparent;
+    border: 0;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    border: 0;
 }
 
 @media (max-width: 768px) {
     .navbar-brand {
-      position: absolute;
-      left: 50%;
-      margin-left: -50px !important;
-      display: block;
+      top: 10px;
+    }
+    .custom-toggler.navbar-toggler {
+      border: none;
+    }
+  
+    .navbar-toggler:focus {
+      outline: none;
+      box-shadow: none;
     }
 }
