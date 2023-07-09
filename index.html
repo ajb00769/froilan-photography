@@ -22,11 +22,11 @@
     />
     <link href="/static/css/styles.css" rel="stylesheet" />
   </head>
-  <body>
+  <body id="home">
     <header>
-      <nav class="navbar navbar-expand-md">
+      <nav class="navbar fixed-top navbar-expand-md">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/">
+          <a class="navbar-brand" href="#home">
             <img
               class="logo d-md-none"
               src="static/img/froilan-logo-enhanced.jpg"
@@ -47,25 +47,67 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto" id="navitems">
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#services">Services</a>
               </li>
-              <a class="navbar-brand d-none d-md-block" href="/">
+              <a class="navbar-brand d-none d-md-block" href="#home">
                 <img src="static/img/froilan-logo-enhanced.jpg" />
               </a>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
+    <div id="about" class="section">
+      <div>
+        <h1>About Section</h1>
+        <p>Photography stuff man</p>
+      </div>
+    </div>
+    <div id="services" class="section">
+      <div>
+        <h1>Services Section</h1>
+        <p>Photography stuff man</p>
+      </div>
+    </div>
+    <div id="portfolio" class="section">
+      <div>
+        <h1>Portfolio Section</h1>
+        <p>Photography stuff man</p>
+      </div>
+    </div>
+    <div id="contact" class="section">
+      <div>
+        <h1>Contact Section</h1>
+        <p>Photography stuff man</p>
+      </div>
+    </div>
+    <footer class="mt-auto align-content-center">
+      <div
+        class="d-flex justify-content-center align-content-center mb-3 text-center"
+      >
+        <div class="footer-text">
+          &copy; 2023
+          <a href="#home">Froilan Photography</a>
+          &#8226; All Rights Reserved
+          <br />
+          <a href="#" target="_blank">Privacy Policy</a>
+          &#8226;
+          <a href="#" target="_blank">Terms & Conditions</a>
+          <br />
+          Website Designed By:
+          <a href="https://ajb00769.github.io" target="_blank">Allen Bercero</a>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
