@@ -84,15 +84,18 @@
 }
 
 .custom-card {
-    min-width: 250px;
-    height: 300px;
-    align-items: center;
-    justify-content: center;
     background: transparent;
-    border: 2px solid rgba(255, 255, 255, .5);
-    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, .7);
     backdrop-filter: blur(20px);
-    box-shadow: 0 0 30px rgba(0, 0, 0, .3);
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    margin-bottom: 40px;
+}
+
+.disclaimer-text {
+    font-size: 11px;
+    color: gray;
+    font-style: italic;
 }
 
 .text-justify {
@@ -135,4 +138,15 @@ body > div > div h3 {
     font-family: 'Helvetica', sans-serif;
     font-size: 1em;
     font-style: italic;
+}
+
+h5 {
+    font-family: 'Neucha', sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+ul > li {
+    font-family: 'Delius', sans-serif;
 }
