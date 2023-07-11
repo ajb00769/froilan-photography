@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Open+Sans&family=Tiro+Devanagari+Hindi&family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Open+Sans&family=Tiro+Devanagari+Hindi&family=Style+Script&family=Amatic+SC&display=swap');
 
 ::-webkit-scrollbar {
     width: 8px;
@@ -94,6 +94,7 @@
 
 .carousel-inner {
     box-shadow: 0 0 30px rgba(0, 0, 0, .3);
+    border-radius: 5px;;
 }
 
 .disclaimer-text {
@@ -107,7 +108,7 @@
 }
 
 .about-img {
-    background-image: url('/static/img/pic-2.jpg');
+    background-image: url('/static/img/about.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -157,4 +158,9 @@ h5 {
     font-size: 1.5em;
     padding-bottom: 10px;
     padding-top: 10px;
+}
+
+h2 {
+    font-family: 'Amatic SC';
+    font-size: 40px;
 }
